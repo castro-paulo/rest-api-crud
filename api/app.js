@@ -7,7 +7,7 @@ const app = express();
 const router = express.Router();
 
 //Connect DB
-mongoose.connect('mongodb://crudapiuser:passCrudApi7@ds129051.mlab.com:29051/crudapi', { useNewUrlParser: true });
+mongoose.connect('mongodb://user:password@ds129051.mlab.com:29051/crudapi', { useNewUrlParser: true });
 
 // When successfully connected
 mongoose.connection.on('connected', function () {
