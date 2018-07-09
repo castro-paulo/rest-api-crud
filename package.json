@@ -1,0 +1,42 @@
+{
+  "name": "rest-api-crud",
+  "version": "1.0.0",
+  "description": "Small REST API with CRUD operations for a basic TODO List",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcastro/rest-api-crud.git"
+  },
+  "keywords": [
+    "crud",
+    "api",
+    "rest"
+  ],
+  "author": "paulocastro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devcastro/rest-api-crud/issues"
+  },
+  "homepage": "https://github.com/devcastro/rest-api-crud#readme",
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongoose": "^5.2.1",
+    "morgan": "^1.9.0",
+    "normalize-port": "^1.0.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "should": "^13.2.1"
+  }
+}

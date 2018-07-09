@@ -1,0 +1,6 @@
+{"message":"Mongoose default connection open mongodb://ds129051.mlab.com:29051/crudapi","level":"\u001b[32minfo\u001b[39m","timestamp":"2018-07-09T11:49:52.838Z"}
+{"message":"GET By Id Error: CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"task-models\"","level":"\u001b[31merror\u001b[39m","timestamp":"2018-07-09T11:49:57.272Z"}
+{"message":"Mongoose default connection error: MongoError: Authentication failed.","level":"\u001b[32minfo\u001b[39m","timestamp":"2018-07-09T11:52:23.219Z"}
+{"message":"Mongoose default connection open mongodb://ds129051.mlab.com:29051/crudapi","level":"\u001b[32minfo\u001b[39m","timestamp":"2018-07-09T11:52:41.027Z"}
+{"message":"Mongoose default connection open mongodb://ds129051.mlab.com:29051/crudapi","level":"\u001b[32minfo\u001b[39m","timestamp":"2018-07-09T11:54:12.517Z"}
+{"message":"Failed to create task. Error: ValidationError: title: Path `title` is required.","level":"\u001b[32minfo\u001b[39m","timestamp":"2018-07-09T11:54:12.805Z"}
