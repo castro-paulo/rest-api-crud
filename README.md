@@ -1,3 +1,3 @@
-# API REST CRUD
+# Small REST API with CRUD operations
 
-A small REST API with CRUD operations using NodeJS, Express, MongoDB connection test to mlab, structure MVC
+A small REST API with CRUD operations using NodeJS, Express, MongoDB connection to mlab, structure MVC, handling application logs with <a href="https://www.npmjs.com/package/winston">winston</a>/<a href="https://www.npmjs.com/package/morgan">morgan</a> and unit testing with <a href="https://www.npmjs.com/package/mocha">mocha</a>/<a href="https://www.npmjs.com/package/chai">chai</a> and monitoring with <a href="http://pm2.keymetrics.io/">pm2</a>(advanced node.js process manager)
